@@ -1,0 +1,191 @@
+body{
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+/*HEADER PART*/
+.header{
+  background-color: black;
+  opacity: 0.9;
+  height: 200px;
+  display: flex;
+  
+}
+
+.header img{
+  height: 200px;
+  width: 250px;
+}
+
+.header div{
+  display: inline-block;
+}
+
+.header li{
+  color: antiquewhite;
+  list-style: none;
+  display: inline-block;
+  
+}
+
+.header li:hover{
+  color: rgb(155, 46, 244);
+  cursor: pointer;
+}
+
+.header i{
+  padding-right: 10px;
+}
+
+#list-2{
+  float: right;
+  flex: 1;
+}
+
+#list-1{
+  /*border: 1px solid blue;*/
+  justify-content: space-between;
+  flex: 2;
+}
+
+#list-1 li{
+  padding-right: 10% ;
+  padding-top: 50px ;
+}
+
+#list-2 li{
+  padding-top: 50px;
+}
+
+/*SECTION 2*/
+.section-2{
+  background-image: url(image/building-1.jpg);
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  padding: 20px;
+  border-top: 80px solid grey;
+}
+
+
+#sec-2-div1{
+  flex: 1;
+}
+
+#sec-2-div1 h1{
+  font-size: 50px ;
+}
+#sec-2-div1{
+  font-size: 20px;
+}
+
+#sec-2-div1 p{
+  color: white;
+}
+
+
+#sec-2-div2{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#sec-2-div2 img{
+  height: 400px;
+  width: 400px;
+  border: 40px solid rgba(236, 54, 54, 0.719);
+  border-radius: 20px;
+}
+
+/*SECTION 3*/
+.section-3{
+  background-color: rgb(127, 169, 169);
+  background-size: cover;
+  color: white;
+  padding: 10px;
+  border-top: 80px solid grey;
+}
+
+.section-3 h3{
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.main-form-div{
+  display: flex;
+  background-color: black;
+  opacity: 0.7;
+
+}
+
+#form-subdiv-1{
+ 
+  flex: 1;
+  padding: 40px;
+}
+
+#form-subdiv-1 input, select, textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+  color: black;
+}
+
+#form-subdiv-1 select{
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+/*SECTION 4*/
+.section-4
+{
+  background-image: url(image/kevin-mueller-NjjONA3K0-k-unsplash.jpg);
+  border-top: 80px solid grey;
+  background-size: cover;
+  color: white;
+}
+
+
+
+#footer-div{
+  display: flex;
+}
+
+#footer-div h5{
+  color: aquamarine;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+#footer-div ul{
+  flex: 1;
+  margin-left: 200px;
+  list-style: none;
+
+}
+
+#footer-div li{
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#footer-div li:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#footer-div i{
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
